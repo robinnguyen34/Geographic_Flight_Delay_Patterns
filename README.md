@@ -1,9 +1,9 @@
-# Geographic_Flight_Delay_Patterns
+# Geographic Flight Delay Patterns
 This research analyzes the effect of the geographical dispersion of U.S. airports on flight delay patterns using statistical and machine learning methods. Based on a large database of flight data, the research applies several regression and ARMA time series modeling to investigate the comparative significance of regional, temporal, and operational factors in influencing flight delays. Arrival and departure delay-specific regression models are specified, and variable definitions are provided. The results indicate that geographic areas, in conjunction with meteorological conditions and transportation disruptions, impose considerable impacts on both arrival and departure delays. The findings' implications call for region-specific delay reduction strategies and form the basis of more efficient delay forecasting methods.
 
 ### Crash Data Analysis and Trends Identification
 
-We conduct in-depth analysis and modeling of crash data to identify trends and patterns from aviation. By analyzing historical on time data, we aim to pinpoint specific conditions that may effect the delay of some of these flights. This data-driven approach allows us to make informed decisions from the consumers about choosing their next flight and from the aviation companies on how they can undermine the overall delay time.
+I conduct in-depth analysis and modeling of on time data to identify trends and patterns from aviation. By analyzing historical on time data, we aim to pinpoint specific conditions that may effect the delay of some of these flights. This data-driven approach allows us to make informed decisions from the consumers about choosing their next flight and from the aviation companies on how they can undermine the overall delay time.
 
 ### Methodology
 Variable Definitions and Model Specification
