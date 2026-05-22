@@ -1,5 +1,5 @@
 # Geographic_Flight_Delay_Patterns
-This study analyzes the impact of geographic regions of airports in the U.S. on flight delay patterns from 2018 to 2024. This project employs a data-driven approach, utilizing Python for replication techniques, and predictive modeling. Here's an overview of the key components of this study:
+This research analyzes the effect of the geographical dispersion of U.S. airports on flight delay patterns using statistical and machine learning methods. Based on a large database of flight data, the research applies several regression and ARMA time series modeling to investigate the comparative significance of regional, temporal, and operational factors in influencing flight delays. Arrival and departure delay-specific regression models are specified, and variable definitions are provided. The results indicate that geographic areas, in conjunction with meteorological conditions and transportation disruptions, impose considerable impacts on both arrival and departure delays. The findings' implications call for region-specific delay reduction strategies and form the basis of more efficient delay forecasting methods.
 
 ### Crash Data Analysis and Trends Identification
 
