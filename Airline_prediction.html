@@ -7815,7 +7815,7 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=hWtiL_pEssCH">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=37U3QsZRfvrC">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7839,6 +7839,7 @@ a.anchor-link {
 
 <span class="c1"># Machine Learning Libraries</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">statsmodels.tsa.stattools</span><span class="w"> </span><span class="kn">import</span> <span class="n">kpss</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">statsmodels.tsa.arima.model</span><span class="w"> </span><span class="kn">import</span> <span class="n">ARIMA</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.model_selection</span><span class="w"> </span><span class="kn">import</span> <span class="n">train_test_split</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.linear_model</span><span class="w"> </span><span class="kn">import</span> <span class="n">LinearRegression</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.metrics</span><span class="w"> </span><span class="kn">import</span> <span class="n">mean_squared_error</span><span class="p">,</span> <span class="n">r2_score</span><span class="p">,</span> <span class="n">mean_absolute_error</span>
@@ -7851,42 +7852,12 @@ a.anchor-link {
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Collecting statsmodels
-  Downloading statsmodels-0.14.6-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (9.5 kB)
-Requirement already satisfied: numpy&lt;3,&gt;=1.22.3 in /usr/local/lib/python3.12/dist-packages (from statsmodels) (2.0.2)
-Requirement already satisfied: scipy!=1.9.2,&gt;=1.8 in /usr/local/lib/python3.12/dist-packages (from statsmodels) (1.16.3)
-Requirement already satisfied: pandas!=2.1.0,&gt;=1.4 in /usr/local/lib/python3.12/dist-packages (from statsmodels) (2.2.2)
-Collecting patsy&gt;=0.5.6 (from statsmodels)
-  Downloading patsy-1.0.2-py2.py3-none-any.whl.metadata (3.6 kB)
-Requirement already satisfied: packaging&gt;=21.3 in /usr/local/lib/python3.12/dist-packages (from statsmodels) (26.1)
-Requirement already satisfied: python-dateutil&gt;=2.8.2 in /usr/local/lib/python3.12/dist-packages (from pandas!=2.1.0,&gt;=1.4-&gt;statsmodels) (2.9.0.post0)
-Requirement already satisfied: pytz&gt;=2020.1 in /usr/local/lib/python3.12/dist-packages (from pandas!=2.1.0,&gt;=1.4-&gt;statsmodels) (2026.1.post1)
-Requirement already satisfied: tzdata&gt;=2022.7 in /usr/local/lib/python3.12/dist-packages (from pandas!=2.1.0,&gt;=1.4-&gt;statsmodels) (2026.1)
-Requirement already satisfied: six&gt;=1.5 in /usr/local/lib/python3.12/dist-packages (from python-dateutil&gt;=2.8.2-&gt;pandas!=2.1.0,&gt;=1.4-&gt;statsmodels) (1.17.0)
-Downloading statsmodels-0.14.6-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (10.3 MB)
-   <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">10.3/10.3 MB</span> <span class="ansi-red-fg">26.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Downloading patsy-1.0.2-py2.py3-none-any.whl (233 kB)
-   <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">233.3/233.3 kB</span> <span class="ansi-red-fg">17.4 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Installing collected packages: patsy, statsmodels
-Successfully installed patsy-1.0.2 statsmodels-0.14.6
-</pre>
-</div>
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=B-r7Alkjs4uR">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">google.colab</span><span class="w"> </span><span class="kn">import</span> <span class="n">drive</span>
@@ -12349,10 +12320,7 @@ The series is likely stationary (fail to reject H₀).
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Import package</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">statsmodels.tsa.arima.model</span><span class="w"> </span><span class="kn">import</span> <span class="n">ARIMA</span>
-
-<span class="c1"># Set variables</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Set variables</span>
 <span class="n">endog</span> <span class="o">=</span> <span class="n">avg_arr_delay_training</span><span class="p">[</span><span class="s1">'ARR_DELAY'</span><span class="p">]</span>
 <span class="n">exog</span> <span class="o">=</span> <span class="n">avg_arr_delay_training</span><span class="p">[</span><span class="s1">'ORIGIN_REGION'</span><span class="p">]</span>
 
@@ -13175,7 +13143,38 @@ Prediction Performance:</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=M3Tq4PcXQs9J">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=M3Tq4PcXQs9J">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Export the notebook to HTML</span>
+
+<span class="o">!</span>jupyter<span class="w"> </span>nbconvert<span class="w"> </span>--to<span class="w"> </span>html<span class="w"> </span><span class="s1">'/content/drive/My Drive/Plane_delay_work/Airline_prediction.ipynb'</span><span class="w"> </span>--output-dir<span class="o">=</span><span class="s1">'/content/drive/My Drive/Plane_delay_work/'</span><span class="w"> </span>--output<span class="o">=</span><span class="s1">'Airline_prediction.html'</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>[NbConvertApp] Converting notebook /content/drive/My Drive/Plane_delay_work/Airline_prediction.ipynb to html
+[NbConvertApp] WARNING | Alternative text is missing on 8 image(s).
+[NbConvertApp] Writing 1676335 bytes to /content/drive/My Drive/Plane_delay_work/Airline_prediction.html
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=V8xCdqqJeNJj">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -13183,9 +13182,7 @@ Prediction Performance:</p>
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Export the notebook to HTML</span>
-
-<span class="o">!</span>jupyter<span class="w"> </span>nbconvert<span class="w"> </span>--to<span class="w"> </span>html<span class="w"> </span><span class="s1">'/content/drive/My Drive/Plane_delay_work/Airline_prediction.ipynb'</span><span class="w"> </span>--output-dir<span class="o">=</span><span class="s1">'/content/drive/My Drive/Plane_delay_work/'</span><span class="w"> </span>--output<span class="o">=</span><span class="s1">'Airline_prediction.html'</span>
+<div class="highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 </div>
 </div>
